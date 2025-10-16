@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dianalicious Cakes</title>
+    <link rel="icon" type="image/jpg" href="/images/dc logo.png"> 
+    
+    <link rel="stylesheet" href="styles.css">
+    <!--social icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <!-- header -->
+        <nav>
+            <div class="main-nav">
+                <a href="#home" class="logo"> <img src="/images/dc logo.png" alt="logoimage"></a>
+                <!-- sidebar -->  
+                <ul class="sidebar">
+                    <li class="nav-item" onclick=hideSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="grey"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- main navbar -->
+                <ul class="navbar">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link hideOnMobile">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link hideOnMobile">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link hideOnMobile">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link hideOnMobile">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link hideOnMobile">Contact</a>
+                    </li>
+
+                    <li class="menu-button" onclick=showSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="grey"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </div>  
+        </nav>
+        
+        <!-- INTRO SECTION -->
+        <section id="home">
+            <div>
+                <h1>Welcome to Dianalicious Cakes</h1>
+                <hr>
+                <h3>Where Every Bite is a Delight!</h3>
+                <p>
+                    From classic flavors to custom creations, we have the perfect cake for every occasion.
+                    Explore our menu below and treat yourself today! 🎂✨
+                </p>
+            </div>
+        </section>
+
+        <!-- MENU SECTION -->
+        <section id="menu">
+            <h1 class="heading">MENU</h1>
+            <hr>
+            <h2>Classics🎂</h2>
+            <div class="container">
+                <div class="item item-1">
+                    <a><img src="/images/Cake1.jpg" alt="chocolate"></a>
+                    <p>Chocolate</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+                <div class="item item-2">
+                    <a><img src="/images/Cake1.jpg" alt="vanilla"></a>
+                    <p>Vanilla</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+                <div class="item">
+                    <a><img src="/images/Cake1.jpg" alt="vanilla"></a>
+                    <p>Strawberry</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+            </div>
+            <button type="submit" class="menubutton"><a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fc%2F254758336079%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaeJgVJeQD36wTy4Ii38zUz-VGKK_3EuJ95pRSfjY_03K9YDsOhmzaTzSeeDuw_aem_YtJVYULixJXaktWzJsB1IQ&e=AT04UZjZirmL4MaEzAZD3SWYxu1YDw155E76Vl6uHiMBlOLu8bGCL13L-uuH8zk48Ls-JbfgPXC5Uh7lvKYkgRCgw0U_t1WTnrsisbxA6g">Show More</a></button>
+
+            <h2>Customs🍰</h2>
+            <div class="container">
+                <div class="item item-1">
+                    <a><img src="/images/Cake1.jpg" alt="chocolate"></a>
+                    <p>Banana</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+                <div class="item item-2">
+                    <a><img src="/images/Cake1.jpg" alt="vanilla"></a>
+                    <p>Carrot</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+                <div class="item">
+                    <a><img src="/images/Cake1.jpg" alt="vanilla"></a>
+                    <p>Orange</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+            </div>
+            <button type="submit" class="menubutton"><a href="https://www.whatsapp.com/catalog/254758336079/?app_absent=0">Show More</a></button>
+
+            <h2>Cupcakes🍥</h2>
+            <div class="container">
+                <div class="item item-1">
+                    <a><img src="/images/Cake1.jpg" alt="chocolate"></a>
+                    <p>Fudge</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+                <div class="item item-2">
+                    <a><img src="/images/Cake1.jpg" alt="vanilla"></a>
+                    <p>Biscof</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+                <div class="item">
+                    <a><img src="/images/Cake1.jpg" alt="vanilla"></a>
+                    <p>Combo</p>
+                    <button type="submit" class="orderbutton"><a href="order.html" target="_blank">Order Now</a></button>
+                </div>
+            </div>
+            <button type="submit" class="menubutton"><a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fc%2F254758336079%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaeJgVJeQD36wTy4Ii38zUz-VGKK_3EuJ95pRSfjY_03K9YDsOhmzaTzSeeDuw_aem_YtJVYULixJXaktWzJsB1IQ&e=AT04UZjZirmL4MaEzAZD3SWYxu1YDw155E76Vl6uHiMBlOLu8bGCL13L-uuH8zk48Ls-JbfgPXC5Uh7lvKYkgRCgw0U_t1WTnrsisbxA6g">Show More</a></button>
+        </section>
+
+        <!--ABOUT SECTION-->
+        <section id="about">
+            <h1>ABOUT</h1>
+            <hr>
+            <div class="about-content">
+            <img src="/images/aboutthebaker.jpg" alt="aboutthebaker" class="about-item">
+            <p class="about-item">
+                Diana is a passionate home baker who turns simple ingredients into delightful cakes and pastries. 
+                With a love for creativity and quality, she’s built a reputation for baking treats that not only look beautiful but taste amazing. 
+                Every order is made fresh, with care and attention to detail, bringing a touch of sweetness to every celebration.
+            </p>
+            </div>
+        </section>
+
+        <!-- REVIEW SECTION -->
+        <section id="reviews">
+            <h1 class="heading">Reviews</h1>
+            <hr>
+            <!--carousel for reviews-->
+            <div class="reviews-slide">
+                <div class="reviews-item">
+                    <p class="name">Maria</p>
+                    <img src="/images/fudge.jpg" alt="review-no.1">
+                    <p class="review">“Ordered a birthday cake and it was perfect — soft, fresh, and beautifully decorated. Everyone loved it!”</p>
+                </div>
+                <div class="reviews-item">
+                    <p class="name">Jason</p>
+                    <img src="/images/fudge.jpg" alt="reviews-no.3">
+                    <p class="reviews">“From ordering to delivery, everything was smooth. Diana really listened to what I wanted and created a cake that matched my theme perfectly. It tasted as good as it looked — totally worth it!”</p>
+                </div>
+                <div class="reviews-item">
+                    <p class="name">Vanessa</p>
+                    <img src="/images/fudge.jpg" alt="review-no.2">
+                    <p class="review">“The red velvet cake I ordered was absolutely delicious — rich, soft, and perfectly balanced. Delivery was right on time, and the packaging was neat and professional.”</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <div class="socials">
+                <a href="" target="_blank" class="fab fa-whatsapp"></a>
+                <a href="https://www.facebook.com/diana.onkoba.5/" target="_blank" class="fab fa-facebook"></a>
+                <a href="https://www.instagram.com/dianalicious_cakes/" target="_blank" class="fab fa-instagram"></a>
+            </div>
+            <div class="outro">
+                <h3>© 2025 Dianalicious Cakes.</h3>
+                <h4>All Rights Reserved.</h4>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
