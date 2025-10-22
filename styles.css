@@ -14,7 +14,8 @@
 }
 
 html {
-  scroll-padding-top: 80px; /* adjust based on navbar height */
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* adjust based on navbar height */
 }
 
 li{
