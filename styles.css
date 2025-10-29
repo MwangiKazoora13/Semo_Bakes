@@ -316,18 +316,19 @@ a{
 }
 .fab{
     font-size: 50px;
+    color: var(--main-brand-color);
 }
 .fab:hover{
     transform: scale(1.15);
     transition: 0.2s ease-in-out;
 }
 
-.fa-whatsapp{
+.fa-whatsapp:hover{
     color: rgb(19, 230, 19);
 }
-.fa-tiktok{
+.fa-tiktok:hover{
   color: #7a02b3;
 }
-.fa-instagram{
+.fa-instagram:hover{
   color: #f809e4;
 }
