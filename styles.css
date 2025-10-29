@@ -317,12 +317,17 @@ a{
 .fab{
     font-size: 50px;
 }
-.fa-whatsapp:hover{
+.fab:hover{
+    transform: scale(1.15);
+    transition: 0.2s ease-in-out;
+}
+
+.fa-whatsapp{
     color: rgb(19, 230, 19);
 }
-.fa-tiktok:hover{
+.fa-tiktok{
   color: #7a02b3;
 }
-.fa-instagram:hover {
+.fa-instagram{
   color: #f809e4;
 }
