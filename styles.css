@@ -4,7 +4,7 @@
 :root {
       --main-brand-color:rgb(156, 83, 0); /* main brand colour */
       --secondary-color: rgb(68, 67, 67); /* background colour 1 */
-      --tertiary-color: rgb(117, 116, 116); /* background colour 2 */
+      --tertiary-color: rgb(145, 145, 145); /* background colour 2 */
     }
 
 *,::after,::before{
@@ -119,11 +119,9 @@ nav .logo img {
 svg{
     fill: var(--tertiary-color);
 }
-
 svg:hover{
     fill: var(--secondary-color);
 }
-
 /* INTRO SECTION */
 #home{
     background-image: url(./images/Cake1.jpg);
@@ -150,7 +148,6 @@ hr{
 #home p{
     margin: 0 20%;
 }
-
 /* MENU SECTION */
 #menu{
     width: 100%;
@@ -218,7 +215,6 @@ a{
     width: 400px;
     margin: 10px auto;
 }
-
 /*ABOUT SECTION*/
 #about{
     height: 100vh;
@@ -251,14 +247,12 @@ a{
         margin: 2%;
     }
 }
-
-
 /* REVIEWS SECTION */
 #reviews{
     height: 94vh;
     min-height: fit-content;
     text-align: center;                
-    padding: 100px;
+    padding: 50px;
     max-width: 100vw;
     align-items: center;
 }
@@ -278,7 +272,6 @@ a{
     width: 20%;
     margin: 2.1rem;
 }
-
 @media(max-width:800px){
     .reviews-slide{
         flex-direction: column;
@@ -287,10 +280,9 @@ a{
         width: 80%;
     }
 }
-
 /* CONTACT SECTION */
 #contact{
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -309,10 +301,13 @@ a{
 .outro{
     margin: 30px;
     display: flex;
-    width: 100vw;
+    width: 50%;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly; 
+}
+.outro-item{
+    margin: 0 8%;
 }
 .fab{
     font-size: 50px;
@@ -322,7 +317,6 @@ a{
     transform: scale(1.15);
     transition: 0.2s ease-in-out;
 }
-
 .fa-whatsapp:hover{
     color: rgb(19, 230, 19);
 }
@@ -331,4 +325,7 @@ a{
 }
 .fa-instagram:hover{
   color: #f809e4;
+}
+#creator{
+    font-size: 0.8rem;
 }
