@@ -1,5 +1,6 @@
+---
 version: 1
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mwangika/public_html/semo_bakes
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/mwangika/public_html/semobakes
+    - /bin/rsync -av --delete --exclude '.git' --exclude '.cpanel.yml' ./ $DEPLOYPATH
